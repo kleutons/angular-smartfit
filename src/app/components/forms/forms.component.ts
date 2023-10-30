@@ -25,7 +25,7 @@ export class FormsComponent {
   ngOnInit():void {
     this.formGroup = this.formBuilder.group({
       hour: '',
-      showClosed: true
+      showClosed: false
     })
     this.unitService.getAllUnits().subscribe( data => {
       this.results = data;
@@ -35,7 +35,7 @@ export class FormsComponent {
 
   onSubmit(): void {
     let {showClosed, hour } = this.formGroup.value;
-    this.filteredResults = this.filterUnitService.filter(this.results, showClosed, hour);
+    this.filteredResults = this.filterUnitService.filter(this.results, !showClosed, hour);
     this.unitService.setFilteredUnit(this.filteredResults);
     
     this.submitEvent.emit();

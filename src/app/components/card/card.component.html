@@ -10,8 +10,8 @@
         <img *ngIf="card.fountain" [src]="'/assets/imgs/png/' + card.fountain + '-fountain.png'">
         <img *ngIf="card.locker_room" [src]="'/assets/imgs/png/' + card.locker_room + '-lockerroom.png'">
     </ul>
-    <div class="divider"></div>
-    <ul>
+    
+    <ul class="divider">
         <li *ngFor="let schedule of card.schedules">
             <strong>{{schedule.weekdays}}</strong>
             {{ schedule.hour }}
