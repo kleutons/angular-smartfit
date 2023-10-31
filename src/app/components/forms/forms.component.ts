@@ -11,6 +11,7 @@ import { Location } from 'src/app/types/location.interface';
 })
 export class FormsComponent {
   @Output() submitEvent = new EventEmitter();
+  @Output() cleanEvent = new EventEmitter();
 
   results: Location[] = [];
   filteredResults: Location[] = [];
@@ -42,5 +43,7 @@ export class FormsComponent {
   }
   onClean(): void {
     this.formGroup.reset();
+    this.filteredResults = this.results;
+    this.cleanEvent.emit();
   }
 }

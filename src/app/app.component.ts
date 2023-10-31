@@ -19,4 +19,8 @@ export class AppComponent {
     this.unitsList = this.unitService.getFilteredUnits(); 
     this.showList.next(true);
   }
+
+  onClean(){
+    this.showList.next(false);
+  }
 }
