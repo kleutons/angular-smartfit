@@ -5,10 +5,10 @@
     <h3>{{ card.title }}</h3>
     <p [innerHTML]="card.content"></p>
     <ul>
-        <img *ngIf="card.mask" [src]="'/assets/imgs/png/' + card.mask + '-mask.png'">
-        <img *ngIf="card.towel" [src]="'/assets/imgs/png/' + card.towel + '-towel.png'">
-        <img *ngIf="card.fountain" [src]="'/assets/imgs/png/' + card.fountain + '-fountain.png'">
-        <img *ngIf="card.locker_room" [src]="'/assets/imgs/png/' + card.locker_room + '-lockerroom.png'">
+        <img *ngIf="card.mask" [src]="'assets/imgs/png/' + card.mask + '-mask.png'">
+        <img *ngIf="card.towel" [src]="'assets/imgs/png/' + card.towel + '-towel.png'">
+        <img *ngIf="card.fountain" [src]="'assets/imgs/png/' + card.fountain + '-fountain.png'">
+        <img *ngIf="card.locker_room" [src]="'assets/imgs/png/' + card.locker_room + '-lockerroom.png'">
     </ul>
     
     <ul class="divider">
