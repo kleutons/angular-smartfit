@@ -1,27 +1,41 @@
-# AngularSmartfit
+# 🚀 Desafio Rede Smartfit 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Seja bem-vindo(a) a este desafio de frontend feito para a rede de academias SmartFit, um projeto desenvolvido com Angular que utiliza a API externa para listar academias abertas ou fechadas. O objetivo deste desafio é aprimorar minhas habilidades técnicas no desenvolvimento de software.
 
-## Development server
+- Link do desafio: [Smartfit](https://github.com/bioritmo/front-end-code-challenge-smartsite)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## [Visualize o Projeto Online](https://kleutons.github.io/angular-smartfit/)
 
-## Code scaffolding
+- Link: https://kleutons.github.io/angular-smartfit/
+ 
+### Capturas de Tela
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Captura de Tela do Aplicativo](.github/prototype.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📋 Desafios do Projeto
 
-## Running unit tests
+- [x] Carrega unidades através do arquivo json `https://test-frontend-developer.s3.amazonaws.com/data/locations.json` com method `GET`
+- [x] Busca todas as unidades
+- [x] Busca unidades com filtros
+- [x] Mostra previsão de resultados encontrados
+- [x] Mostra unidades ao buscar
+- [x] Filtrar unidades abertas ou fechadas
+- [x] Filtrar unidades por período de funcionamento
+- [x] Caso não encontre unidades, mostrar uma menssagem ao usuário "Nenhuma unidade encontrada"
+- [x] Validar para mostrar ícones corretos de acordo com o status
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## 👨‍💻 Instruções de Instalação
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Servidor de Desenvolvimento
+Execute o comando `ng serve` para iniciar um servidor de desenvolvimento. Acesse o site em `http://localhost:4200/`. O aplicativo será recarregado automaticamente.
 
-## Further help
+## 👨‍💻 Sobre Mim
+### Criado com 💙 por [@kleutons](https://github.com/kleutons)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Contato
+- [LinkedIn](https://www.linkedin.com/in/kleuton-novais/)
+- [Portfólio](https://kleuton.dev)
+
+### Fique à vontade para compartilhar seu feedback e sugestões sobre esta solução. Estou ansioso para ouvir sua opinião.
